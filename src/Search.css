@@ -1,0 +1,30 @@
+.Search {
+  margin: 0;
+}
+
+.Search form {
+  display: flex;
+  height: 2em;
+}
+
+.Search-form-input  {
+  margin: 0;
+  height: 2em;
+  border: 1px solid #538FCA;
+}
+
+.Search-form-input :active {
+  outline: none;
+}
+
+.Search-form-input :focus {
+  outline: none;
+}
+
+.Search-form-button {
+  margin: 0;
+  height: 2em;
+  border: 1px solid #538FCA;
+  border-left: none;
+  cursor: pointer;
+}
