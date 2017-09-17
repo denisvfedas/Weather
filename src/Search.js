@@ -25,7 +25,7 @@ class Search extends React.Component {
       <div className="Search">
         <form onSubmit={this._submitHandle}>
           <input type="text" ref="cityInput" className="Search-form-input"/>
-          <button className="Search-form-button"><i className="fa fa-search fa-lg"/></button>
+          <button className="Search-form-button"><i className="fa fa-search"/></button>
         </form>
       </div>
     );
