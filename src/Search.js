@@ -2,7 +2,10 @@ import React from 'react';
 import {browserHistory as history} from 'react-router';
 import './Search.css';
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 class Search extends React.Component {
   constructor(props) {
     super(props);
