@@ -3,12 +3,14 @@
 }
 
 .Search form {
+  margin: 0;
   display: flex;
   height: 2em;
 }
 
 .Search-form-input  {
   margin: 0;
+  padding: 0;
   height: 2em;
   border: 1px solid #538FCA;
 }
@@ -24,7 +26,7 @@
 .Search-form-button {
   margin: 0;
   height: 2em;
-  border: 1px solid #538FCA;
+  border: 1px solid #DDD;
   border-left: none;
   cursor: pointer;
 }
