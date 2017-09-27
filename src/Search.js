@@ -5,19 +5,10 @@ import {Link} from 'react-router';
 
 
 class Search extends React.Component {
-  // constructor(props) {
-  //   super(props);
-  //   this.state = {
-  //     city: ""
-  //   };
-  // }
 
   _submitHandle = (event) => {
     event.preventDefault();
     history.push(`/${this.refs.cityInput.value}`);
-    // this.setState({
-    //   city: this.refs.cityInput.value
-    // });
   }
 
   _handleClick = event => {
@@ -25,7 +16,6 @@ class Search extends React.Component {
   }
 
   render() {
-    //console.log("this.state.city", this.state.city);
     return(
       <div className="Search">
         <Link to="/" onClick={this._handleClick}>WeatherApp</Link>
