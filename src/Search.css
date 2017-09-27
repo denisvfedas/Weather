@@ -1,5 +1,16 @@
 .Search {
   margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.Search a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .Search form {

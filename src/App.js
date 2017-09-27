@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router';
 import './App.css';
 import Search from './Search';
 
@@ -15,7 +14,6 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <Link to="/">WeatherApp</Link>
           <Search />
         </header>
         <main className="App-main">
