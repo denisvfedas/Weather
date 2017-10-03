@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Pacifico|Indie+Flower|Raleway');
+
 .Search {
   margin: 0;
   display: flex;
@@ -7,10 +9,13 @@
 }
 
 .Search a {
-  color: #fff;
+  padding-left: 5%;
+  color: #FFF567;
   font-size: 18px;
   font-weight: bold;
   text-decoration: none;
+  font-family: Lobster;
+  font-size: 1.5em;
 }
 
 .Search form {
@@ -24,7 +29,7 @@
   margin: 0;
   padding: 0;
   height: 2em;
-  border: 1px solid #538FCA;
+  border: 1px solid #0C4DAF;
 }
 
 .Search-form-input :active {
