@@ -9,7 +9,32 @@
   background-color: #538FCA;
   font-family: Raleway;
 }
-
-.City-loaded-temp {
+.City-loaded-city {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.City-loaded-temp {
+  min-width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.City-loaded-temp h1 {
+  margin: 7%;
+  font-size: 48px;
+}
+.City-loaded-temp-cont {
+  min-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.City-loaded-temp-cont h2 {
+  margin-bottom: 0;
+  padding-top: 1.5em;
+}
+.City-loaded-temp-cont p {
+  margin-bottom: 0;
 }

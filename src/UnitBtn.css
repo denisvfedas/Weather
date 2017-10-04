@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.City-loaded-units-btn {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 34px;
+  background-color: #538FCA;
+  border: none;
+  margin-left: 1em;
+}
+.City-loaded-units-btn:hover {
+  cursor: pointer;
+}
+.City-loaded-units-btn:active {
+  outline: none;
+}
+.City-loaded-units-btn:focus {
+  outline: none;
+}
