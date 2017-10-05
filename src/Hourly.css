@@ -2,6 +2,7 @@
 
 .Hourly {
   max-width: 750px;
+  min-width: 94%;
   margin: auto;
 }
 .Hourly-header {
@@ -11,6 +12,21 @@
   font-family: Raleway;
   font-size: 1em;
   padding-left: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.Hourly-header-btns-contr {
+  display: flex;
+}
+.Hourly-header button {
+  color: #FFF567;
+  background: #0C4DAF;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.Hourly-header button:active {
+  color: #FE8700;
 }
 .Hourly-list {
   display: flex;
@@ -27,7 +43,7 @@
 	background-color: #F5F5F5;
 }
 .Hourly-list::-webkit-scrollbar {
-	width: 12px;
+	width: 5px;
 	background-color: #F5F5F5;
 }
 .Hourly-list-el {
@@ -47,4 +63,14 @@
 .Hourly-list-el-temp img {
   width: 24px;
   height: 24px;
+}
+.Hourly-list-el-precip {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Hourly-list-el-precip img {
+  height: 24px;
+  width: 24px;
 }

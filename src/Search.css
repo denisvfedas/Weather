@@ -32,6 +32,7 @@
   padding: 0;
   height: 2em;
   border: 1px solid #0C4DAF;
+  outline: none;
 }
 
 .Search-form-input :active {
@@ -48,4 +49,5 @@
   border: 1px solid #DDD;
   border-left: none;
   cursor: pointer;
+  outline: none;
 }
