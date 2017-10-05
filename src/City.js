@@ -1,5 +1,6 @@
 import React from 'react';
 import UnitBtn from './UnitBtn';
+import Hourly from './Hourly';
 import './City.css';
 
 class City extends React.Component {
@@ -103,6 +104,7 @@ class City extends React.Component {
             </div>
           </div>
           <h2>{this.state.forecast.currently.summary}</h2>
+          <Hourly data={this.state.forecast.hourly.data} timezone={this.state.forecast.timezone}/>
         </div>
       );
     }
