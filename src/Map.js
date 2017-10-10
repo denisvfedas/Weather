@@ -11,7 +11,7 @@ const MyMap = compose(
   }),
   withScriptjs,
   withGoogleMap)((props) =>
-      <GoogleMap defaultZoom={9} defaultCenter={ props.location }>
+      <GoogleMap defaultZoom={9} center={ props.location } >
         {props.isMarketShown && <Marker position={props.location}/>}
       </GoogleMap>
   );
