@@ -6,7 +6,7 @@ const MyMap = compose(
   withProps({
     googleMapURL: "https://maps.googleapis.com/maps/api/js?key=AIzaSyDktZ_F3lgfR3eMRPI_P7oWDCJCeqOqx-A&v=3.exp&libraries=geometry,drawing,places",
     loadingElement: <div style={{ height: `100%` }} />,
-    containerElement: <div style={{ height: `300px`, width: `94%`, margin: `20px 0` }} />,
+    containerElement: <div style={{ height: `300px`, width: `92%`, margin: `20px 0`, border: `1px solid #ccc`, padding: `1%`, background: `#fff`  }} />,
     mapElement: <div style={{ height: `100%` }} />,
   }),
   withScriptjs,
@@ -28,7 +28,6 @@ const MyMap = compose(
       this.setState({
         location: this.props.location
       })
-      console.log("Map Did Mont", this.props.location);
     }
 
     componentWillUpdate = (nextProps) => {
@@ -36,18 +35,8 @@ const MyMap = compose(
         this.setState({
           location: nextProps.location
         });
-        console.log("Map Will Update with", nextProps.location);
       }
     }
-
-    // componentDidUpdate = () => {
-    //   if(this.state.location !== this.props.location){
-    //     this.setState({
-    //       location: this.props.location
-    //     });
-    //   }
-    //   console.log("Map Did Update", "this.props", this.props.location, "this.state", this.state.location);
-    // }
 
     render() {
       if(!this.state.location) {

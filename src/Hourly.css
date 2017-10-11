@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Lobster');
 
 .Hourly {
-  max-width: 750px;
-  min-width: 94%;
+  position: relative;
   margin: auto;
+  width: 94%;
+  height: 240px;
 }
 .Hourly-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 95%;
   background-color: #0C4DAF;
   height: 1.5em;
   color: #FFF567;
@@ -29,6 +34,10 @@
   color: #FE8700;
 }
 .Hourly-list {
+  position: absolute;
+  top: 1.5em;
+  left: 0;
+  width: 100%;
   display: flex;
   justify-content: flex-start;
   padding: 0;
@@ -48,7 +57,7 @@
 }*/
 .Hourly-list-el {
   margin: 0 0.5em;
-  min-width: 15%;
+  min-width: 8em;
   list-style: none;
   display: flex;
   flex-direction: column;
