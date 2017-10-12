@@ -46,7 +46,7 @@ class Hourly extends Component {
   }
 
   render() {
-    let newData = this.props.data.slice(this.state.firstIndex, this.state.length);
+    let newData = this.props.hourlyData.slice(this.state.firstIndex, this.state.length);
     return(
       <div className="Hourly">
         <div className="Hourly-header">

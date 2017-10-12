@@ -13,10 +13,26 @@
   text-align: center;
 }
 .City-loaded-city {
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
+  justify-content: space-around;
+}
+.City-loaded-city button {
+  background: none;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.City-loaded-city button:active{
+  color: #ccc;
+}
+.City-loaded-city-title {
+  display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .City-loaded-temp {
   min-width: 30%;

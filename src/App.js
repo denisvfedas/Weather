@@ -19,6 +19,9 @@ class App extends Component {
         <main className="App-main">
           {this.props.children}
         </main>
+        <footer className="App-footer">
+          <img src="https://darksky.net/dev/img/attribution/poweredby.png" alt="darksky"/>
+        </footer>
       </div>
     );
   }
