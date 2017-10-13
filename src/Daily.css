@@ -1,0 +1,64 @@
+.Daily {
+  position: relative;
+  margin: auto;
+  width: 94%;
+  height: 240px;
+}
+.Daily-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 95%;
+  background-color: #0C4DAF;
+  height: 1.5em;
+  color: #FFF567;
+  font-family: Raleway;
+  font-size: 1em;
+  padding-left: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.Daily-list {
+  position: absolute;
+  top: 1.5em;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+  font-size: 14px;
+  overflow: auto;
+  scroll-behavior: smooth;
+  font-family: Open Sans;
+}
+.Daily-list-day {
+  margin: 0 0.5em;
+  min-width: 8em;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Daily-list-day-temp {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Daily-list-day-temp img {
+  width: 24px;
+  height: 24px;
+}
+.Daily-list-day h5 {
+  margin-top: 5px;
+}
+.Daily-list-day-precip {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Daily-list-day-precip img {
+  height: 24px;
+  width: 24px;
+}

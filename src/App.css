@@ -1,0 +1,20 @@
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  /*background-image: radial-gradient(circle, white, #508FCA);*/
+}
+.App-header {
+  background-color: #0C4DAF;
+  height: 2em;
+  padding: 0 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.App-footer {
+  text-align: center;
+}
+.App-footer img {
+  width: 100px;
+}
